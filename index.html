@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="" alt="Avatar" class="avatar" />
+        <div class="name">Nome</div>
+      </div>
+      <nav class="menu">
+        <a href="#" class="menu-item">
+          <span class="icon">⇄</span>
+          <span>Transações</span>
+        </a>
+        <a href="#" class="menu-item active">
+          <span class="icon">▤</span>
+          <span>Painel</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="icon">📅</span>
+          <span>Planejamento</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="icon">⚙</span>
+          <span>Configurações</span>
+        </a>
+      </nav>
+      <div class="logout">
+        <a href="#" class="logout-btn">Sair</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <i class='bx bx-menu' id='btn' aria-label='Menu'></i>
+        <h1>Painel</h1>
+        <div class="filters">
+          <button class="filter active">Esta semana</button>
+          <button class="filter">Este mês</button>
+          <button class="filter">Este ano</button>
+          <button class="filter">Personalizado</button>
+        </div>
+      </header>
+
+      <section class="kpis">
+        <div class="kpi kpi-blue">
+          <div class="kpi-title">Recebido</div>
+          <div class="kpi-value">$0</div>
+        </div>
+        <div class="kpi kpi-pink">
+          <div class="kpi-title">Gasto</div>
+          <div class="kpi-value">$0</div>
+        </div>
+        <div class="kpi kpi-purple">
+          <div class="kpi-title">Economizado</div>
+          <div class="kpi-value">$0</div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="left">
+          <div class="total-balance">
+            <div class="label">Saldo total</div>
+            <div class="value">$0</div>
+          </div>
+
+          <div class="accounts">
+            <div class="section-title">Contas</div>
+            <div class="account-card primary">
+              <span>Família</span>
+              <span class="amount">$0</span>
+            </div>
+            <div class="account-card">
+              <span>Poupança</span>
+              <span class="amount">$0</span>
+            </div>
+            <div class="account-card">
+              <span>Negócio próprio</span>
+              <span class="amount">$0</span>
+            </div>
+            <button class="add-account">Adicionar conta</button>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="chart-space"></div>
+        </div>
+      </section>
+    </main>
+    <div class="overlay"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
