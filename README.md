@@ -13,6 +13,19 @@ Este projeto é um painel de controle financeiro que permite visualizar e gerenc
 - Gráficos e visualizações
 - Fácil navegação e usabilidade
 
+## 📸 Screenshots
+
+### Painel Principal
+![Dashboard](./screenshots/Captura%20de%20tela%202025-11-14%20202741.png)
+
+### Painel Detalhado
+![Painel Detalhado](./screenshots/Captura%20de%20tela%202025-11-14%20202849.png)
+
+## 🎥 Demonstração em Vídeo
+
+Confira o vídeo de demonstração:
+[Clique aqui para assistir](./screenshots/Gravação%20de%20Tela%202025-11-14%20202927.mp4)
+
 ## 📁 Estrutura do Projeto
 
 ```
